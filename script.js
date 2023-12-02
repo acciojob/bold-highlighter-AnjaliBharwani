@@ -1,13 +1,19 @@
 function highlight() {
-    const boldWords = document.querySelectorAll('strong');
-    boldWords.forEach(word => {
-        word.style.color = 'green';
-    });
+    //Write your code here
+	var bolds = document.getElementsByTagName("strong");
+  for (var i = 0; i < bolds.length; i++) {
+    bolds[i].style.color = "green";
+  }
+
+
 }
 
-function returnNormal() {
-    const boldWords = document.querySelectorAll('strong');
-    boldWords.forEach(word => {
-        word.style.color = 'black';
-    });
+
+function return_normal() {
+    //Write your code here
+var bolds = document.getElementsByTagName("strong");
+  for (var i = 0; i < bolds.length; i++) {
+    bolds[i].style.color = "black";
+  }
+    
 }
